@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ssh" />
+        <module name="struts1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ssh" target="1.7" />
+      <module name="struts1" target="1.7" />
+      <module name="test" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
